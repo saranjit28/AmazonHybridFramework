@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="584202" started-at="2020-07-22T19:24:00Z" finished-at="2020-07-22T19:33:44Z">
+    <groups>
+      <group name="HeadPhone">
+        <method signature="AmazonTest.HeadphoneAdd()[pri:1, instance:com.amazon.testscripts.AmazonTest@5c3bd550]" name="HeadphoneAdd" class="com.amazon.testscripts.AmazonTest"/>
+        <method signature="AmazonTest.deleteHeadPhones()[pri:2, instance:com.amazon.testscripts.AmazonTest@5c3bd550]" name="deleteHeadPhones" class="com.amazon.testscripts.AmazonTest"/>
+      </group> <!-- HeadPhone -->
+      <group name="Paramaterization Check">
+        <method signature="AmazonTest.Parameterizationtest()[pri:0, instance:com.amazon.testscripts.AmazonTest@5c3bd550]" name="Parameterizationtest" class="com.amazon.testscripts.AmazonTest"/>
+      </group> <!-- Paramaterization Check -->
+      <group name="MacBook Pro">
+        <method signature="AmazonTest.MacBookProAdd()[pri:1, instance:com.amazon.testscripts.AmazonTest@5c3bd550]" name="MacBookProAdd" class="com.amazon.testscripts.AmazonTest"/>
+        <method signature="AmazonTest.ReduceQuantityMacBookPro()[pri:2, instance:com.amazon.testscripts.AmazonTest@5c3bd550]" name="ReduceQuantityMacBookPro" class="com.amazon.testscripts.AmazonTest"/>
+      </group> <!-- MacBook Pro -->
+      <group name="Sample Login">
+        <method signature="AmazonTest.simpleLoginTest()[pri:0, instance:com.amazon.testscripts.AmazonTest@5c3bd550]" name="simpleLoginTest" class="com.amazon.testscripts.AmazonTest"/>
+      </group> <!-- Sample Login -->
+    </groups>
+    <test name="Default test" duration-ms="584202" started-at="2020-07-22T19:24:00Z" finished-at="2020-07-22T19:33:44Z">
+      <class name="com.amazon.testscripts.AmazonTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.testscripts.AmazonTest@5c3bd550]" name="setup" is-config="true" duration-ms="58913" started-at="2020-07-22T19:24:00Z" finished-at="2020-07-22T19:24:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Parameterizationtest()[pri:0, instance:com.amazon.testscripts.AmazonTest@5c3bd550]" name="Parameterizationtest" duration-ms="126663" started-at="2020-07-22T19:24:59Z" finished-at="2020-07-22T19:27:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Parameterizationtest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.testscripts.AmazonTest@5c3bd550]" name="tearDown" is-config="true" duration-ms="1594" started-at="2020-07-22T19:27:06Z" finished-at="2020-07-22T19:27:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.testscripts.AmazonTest@5c3bd550]" name="setup" is-config="true" duration-ms="53974" started-at="2020-07-22T19:27:07Z" finished-at="2020-07-22T19:28:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="simpleLoginTest()[pri:0, instance:com.amazon.testscripts.AmazonTest@5c3bd550]" name="simpleLoginTest" duration-ms="2905" started-at="2020-07-22T19:28:01Z" finished-at="2020-07-22T19:28:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.testscripts.AmazonTest@5c3bd550]" name="tearDown" is-config="true" duration-ms="2069" started-at="2020-07-22T19:28:04Z" finished-at="2020-07-22T19:28:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.testscripts.AmazonTest@5c3bd550]" name="setup" is-config="true" duration-ms="57321" started-at="2020-07-22T19:28:06Z" finished-at="2020-07-22T19:29:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="HeadphoneAdd()[pri:1, instance:com.amazon.testscripts.AmazonTest@5c3bd550]" name="HeadphoneAdd" duration-ms="23128" started-at="2020-07-22T19:29:04Z" finished-at="2020-07-22T19:29:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HeadphoneAdd -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.testscripts.AmazonTest@5c3bd550]" name="tearDown" is-config="true" duration-ms="2070" started-at="2020-07-22T19:29:27Z" finished-at="2020-07-22T19:29:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.testscripts.AmazonTest@5c3bd550]" name="setup" is-config="true" duration-ms="57313" started-at="2020-07-22T19:29:29Z" finished-at="2020-07-22T19:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="MacBookProAdd()[pri:1, instance:com.amazon.testscripts.AmazonTest@5c3bd550]" name="MacBookProAdd" duration-ms="42594" started-at="2020-07-22T19:30:26Z" finished-at="2020-07-22T19:31:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MacBookProAdd -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.testscripts.AmazonTest@5c3bd550]" name="tearDown" is-config="true" duration-ms="1590" started-at="2020-07-22T19:31:09Z" finished-at="2020-07-22T19:31:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.testscripts.AmazonTest@5c3bd550]" name="setup" is-config="true" duration-ms="65425" started-at="2020-07-22T19:31:10Z" finished-at="2020-07-22T19:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ReduceQuantityMacBookPro()[pri:2, instance:com.amazon.testscripts.AmazonTest@5c3bd550]" name="ReduceQuantityMacBookPro" duration-ms="13823" started-at="2020-07-22T19:32:16Z" finished-at="2020-07-22T19:32:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReduceQuantityMacBookPro -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.testscripts.AmazonTest@5c3bd550]" name="tearDown" is-config="true" duration-ms="3525" started-at="2020-07-22T19:32:30Z" finished-at="2020-07-22T19:32:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.testscripts.AmazonTest@5c3bd550]" name="setup" is-config="true" duration-ms="62201" started-at="2020-07-22T19:32:33Z" finished-at="2020-07-22T19:33:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="deleteHeadPhones()[pri:2, instance:com.amazon.testscripts.AmazonTest@5c3bd550]" name="deleteHeadPhones" duration-ms="7096" started-at="2020-07-22T19:33:35Z" finished-at="2020-07-22T19:33:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteHeadPhones -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.testscripts.AmazonTest@5c3bd550]" name="tearDown" is-config="true" duration-ms="1890" started-at="2020-07-22T19:33:42Z" finished-at="2020-07-22T19:33:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.testscripts.AmazonTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
